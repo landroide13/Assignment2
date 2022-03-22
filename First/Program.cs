@@ -41,14 +41,14 @@ namespace First
          {
              int size = li.Count;
 
-            for (int j = 0; j < size -1; j++)
+            for (int j = 0; j < size - 1; j++)
             {
                 for (int i = j + 1; i < size; i++)
                 {
-                    if (li[i - 1].GetName().CompareTo(li[i].GetName()) > 0)
+                    if (li[j].GetName().CompareTo(li[i].GetName()) > 0)
                     {
-                        Customer temp = li[i - 1];
-                        li[i - 1] = li[i];
+                        Customer temp = li[j];
+                        li[j] = li[i];
                         li[i] = temp;
                     }
                 }
