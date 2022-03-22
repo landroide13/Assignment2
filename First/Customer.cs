@@ -15,28 +15,28 @@ namespace First
       this.address = address;
     }
 
-    public void setName(string newName)
+    public void SetName(string newName)
     {
       this.address = newName;
     }
-     public void setRating(int newRating)
+     public void SetRating(int newRating)
     {
       this.rating = newRating;
     }
-     public void setAddress(string newAddress)
+     public void SetAddress(string newAddress)
     {
       this.address = newAddress;
     }
-    public string getName()
+    public string GetName()
     {
       return name;
     }
-     public int getRating()
+     public int GetRating()
     {
       return rating;
     }
 
-     public string getAddress()
+     public string GetAddress()
     {
       return address;
     }

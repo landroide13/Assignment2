@@ -8,24 +8,55 @@ namespace First
 
         static List<Customer> customers = new List<Customer>();
 
-        static void liDisplay(List<Customer> li)
+        static void LiDisplay(List<Customer> li)
         {
             foreach(Customer cus in li)
             {
-                string name = cus.getName();
-                int rate = cus.getRating();
-                string add = cus.getAddress();
+                string name = cus.GetName();
+                int rate = cus.GetRating();
+                string add = cus.GetAddress();
                 Console.WriteLine(name + ", " + "rating " + rate + " ,Address " + add);
             }
         }
 
-        static void sortData(List<Customer> li)
+        static void SortData(List<Customer> li)
         {
+            int size = li.Count;
 
-        }
+            for (int j = 0; j < size; j++)
+            {
+                for (int i = 1; i <= j; i++)
+                {
+                    if (li[i - 1].GetRating() > li[i].GetRating())
+                    {
+                        Customer temp = li[i - 1];
+                        li[i - 1] = li[i];
+                        li[i] = temp;
+                    }
+                }
+            }
+         }
+
+         static void SortName(List<Customer> li)
+         {
+             int size = li.Count;
+
+            for (int j = 0; j < size -1; j++)
+            {
+                for (int i = j + 1; i < size; i++)
+                {
+                    if (li[i - 1].GetName().CompareTo(li[i].GetName()) > 0)
+                    {
+                        Customer temp = li[i - 1];
+                        li[i - 1] = li[i];
+                        li[i] = temp;
+                    }
+                }
+            }
+         }
 
 
-        static void setList(List<Customer> li)
+        static void SetList(List<Customer> li)
         {
             Customer c1 = new Customer("Tamara", 2, "Auckland");
             li.Add(c1);
@@ -42,7 +73,7 @@ namespace First
             Customer c5 = new Customer("Carlos", 5, "Glenfield");
             li.Add(c5);
 
-            Customer c6 = new Customer("ALice", 2, "Whangarei");
+            Customer c6 = new Customer("Alice", 2, "Whangarei");
             li.Add(c6);
 
             Customer c7 = new Customer("Zion", 2, "Wellington");
@@ -61,16 +92,25 @@ namespace First
         static void Main(string[] args)
         {
             Console.WriteLine("");
-            Console.WriteLine("########## Welcome ###########");
+            Console.WriteLine("########## Welcome Customer App ###########");
             Console.WriteLine("");
 
-            setList(customers);
-
-            liDisplay(customers);
+            SetList(customers);
+            LiDisplay(customers);
 
             Console.WriteLine("");
-            Console.WriteLine("########## The Data Sorted Is: ###########");
+            Console.WriteLine("########## The Data Sorted by Rating Is: ###########");
             Console.WriteLine("");
+
+            SortData(customers);
+            LiDisplay(customers);
+
+            Console.WriteLine("");
+            Console.WriteLine("########## The Data Sorted by Name Is: ###########");
+            Console.WriteLine("");
+
+            SortName(customers);
+            LiDisplay(customers);
 
         }
     }
