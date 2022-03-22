@@ -1,0 +1,15 @@
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/bin/Debug/net5.0/First.deps.json
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/bin/Debug/net5.0/First.runtimeconfig.json
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/bin/Debug/net5.0/First.runtimeconfig.dev.json
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/bin/Debug/net5.0/First.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/bin/Debug/net5.0/ref/First.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/bin/Debug/net5.0/First.pdb
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.csproj.AssemblyReference.cache
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.GeneratedMSBuildEditorConfig.editorconfig
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.AssemblyInfoInputs.cache
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.AssemblyInfo.cs
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.csproj.CoreCompileInputs.cache
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/ref/First.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.pdb
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/First/obj/Debug/net5.0/First.genruntimeconfig.cache
