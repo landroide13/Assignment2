@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,10 +10,17 @@ namespace QuickSort
     class QuickSort
     {
         private CatalogueItem[] items;
+
+        //Counter iterations
         static int count = 0;
+
+        //Setup Chronometer
+        static Stopwatch chron = new Stopwatch();
+
         private int number;
         public void Sort(CatalogueItem[] values)
         {
+            chron.Start();
             // check for empty or null array
             if (values == null || values.Length == 0)
             {
@@ -81,6 +89,7 @@ namespace QuickSort
         static void Main(string[] args)
         {
             QuickSort ob = new QuickSort();
+
             CatalogueItem[] arr = {
                 new CatalogueItem( 3, "Life of Pi","Books"),
                 new CatalogueItem( 7, "Deelongie 4 way toaster","Home and Kitchen"),
@@ -97,9 +106,12 @@ namespace QuickSort
             ob.Sort(arr);
             Console.WriteLine("The Quick Sorted array is: \r\n");
             ob.PrintArray(arr);
+
+            chron.Stop();
+            Console.WriteLine("Timer: " + chron.Elapsed);
             //Check how Many times check the Array..
-            Console.WriteLine("Iterations " + count);
-            
+            Console.WriteLine("Iterations: " + count);
+
             Console.Read();
         }
     }
