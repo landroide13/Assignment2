@@ -43,7 +43,6 @@ namespace QuickSort
                 }
                 // If we have found a value in the left list which is larger than
                 // the pivot element and if we have found a value in the right list
-
                 // which is smaller than the pivot element then we exchange the
                 // values.
                 // As we are done we can increase i and j
@@ -71,11 +70,11 @@ namespace QuickSort
         {
             int n = arr.Length;
             for (int i = 0; i < n; ++i)
-            Console.WriteLine(
-            "id: " + arr[i].Id + " "
-            + "name: " + arr[i].ItemName + " "
-            + "category: " + arr[i].Category + "\n");
-            Console.WriteLine();
+                Console.WriteLine(
+                "id: " + arr[i].Id + " "
+                + "name: " + arr[i].ItemName + " "
+                + "category: " + arr[i].Category + "\n");
+                Console.WriteLine();
         }
         static void Main(string[] args)
         {
@@ -87,7 +86,6 @@ namespace QuickSort
                 new CatalogueItem( 4, "Diesorn vacuum cleaner","Appliances"),
                 new CatalogueItem( 5, "Jennie Olivier sauce pan","Home and Kitchen"),
                 new CatalogueItem( 6, "This book will save your life","Books"),
-
                 new CatalogueItem( 9, "Kemwould hand mixer","Appliances"),
                 new CatalogueItem( 1, "Java for Dummies","Books"),
             };

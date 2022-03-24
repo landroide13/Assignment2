@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace BuiltInSort
+
+namespace QuickSort
 {
   class CatalogueItem
   {
@@ -13,10 +14,10 @@ namespace BuiltInSort
     // constructor
     public CatalogueItem(Int32 newId, String newName, String newCategory)
     {
-    Id = newId;
-    ItemName = newName;
-    Category = newCategory;
+      Id = newId;
+      ItemName = newName;
+      Category = newCategory;
     }
   }
-  
+
 }

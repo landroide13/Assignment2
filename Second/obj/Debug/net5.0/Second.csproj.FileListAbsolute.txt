@@ -1,0 +1,15 @@
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.csproj.AssemblyReference.cache
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.GeneratedMSBuildEditorConfig.editorconfig
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.AssemblyInfoInputs.cache
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.AssemblyInfo.cs
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.csproj.CoreCompileInputs.cache
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/bin/Debug/net5.0/Second.deps.json
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/bin/Debug/net5.0/Second.runtimeconfig.json
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/bin/Debug/net5.0/Second.runtimeconfig.dev.json
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/bin/Debug/net5.0/Second.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/bin/Debug/net5.0/ref/Second.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/bin/Debug/net5.0/Second.pdb
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/ref/Second.dll
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.pdb
+/Users/landrade/Desktop/Whitecleffe/DataStructure/Assignment2/Second/obj/Debug/net5.0/Second.genruntimeconfig.cache
