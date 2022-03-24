@@ -108,9 +108,9 @@ namespace QuickSort
             ob.PrintArray(arr);
 
             chron.Stop();
-            Console.WriteLine("Timer: " + chron.Elapsed);
+            Console.WriteLine("Total Milliseconds: " + chron.Elapsed.TotalMilliseconds);
             //Check how Many times check the Array..
-            Console.WriteLine("Iterations: " + count);
+            Console.WriteLine("Iterations : " + count);
 
             Console.Read();
         }
