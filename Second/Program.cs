@@ -9,6 +9,7 @@ namespace QuickSort
     class QuickSort
     {
         private CatalogueItem[] items;
+        static int count = 0;
         private int number;
         public void Sort(CatalogueItem[] values)
         {
@@ -52,6 +53,7 @@ namespace QuickSort
                     i++;
                     j--;
                 }
+                count = ++count;
             }
             // Recursion
             if (low < j)
@@ -95,6 +97,9 @@ namespace QuickSort
             ob.Sort(arr);
             Console.WriteLine("The Quick Sorted array is: \r\n");
             ob.PrintArray(arr);
+            //Check how Many times check the Array..
+            Console.WriteLine("Iterations " + count);
+            
             Console.Read();
         }
     }
